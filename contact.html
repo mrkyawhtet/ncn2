@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+      <!-- CDN Link to SB Forms Scripts -->
+      <link rel="shortcut icon" href="images/logo.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <style>
+
+ul a{
+    font-size: 20px;
+}
+    body {
+  background: #007bff;
+  background: linear-gradient(to right, azure, #81d9e5);
+}
+
+.bg-image {
+  background-image: url('images/image_processing20191025-16564-10g5bob.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+  </style>
+</head>
+<body>
+    <!--header-->
+    <header class="p-3 border-bottom" style="background-color: #f2f9f8;">
+      <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <a href="#" class="text-decoration-none">
+                
+              </a>
+              <img src="images/logo.png" height="auto" width="100px">
+              <ul class="nav col-12 col-lg-auto me-lg-auto justify-content-center mb-md-2">
+                  <a href="index.html" class="text-decoration-none"><li class="nav-link link-dark">Home</li></a>
+             
+                  <a href="job-page.html" class="text-decoration-none"><li class="nav-link link-dark">Find Jobs</li></a>
+             
+                  <a href="aboutus.html" class="text-decoration-none"><li class="nav-link link-dark">About Us</li></a>
+            
+              
+                  <a href="contact.html" class="text-decoration-none"><li class="nav-link link-dark">Contact Us</li></a>
+             
+              </ul>
+
+
+              <form class="col-12 col-lg-auto me-lg-3 mb-md-2 mb-2">
+                  <input type="search" class="form-control" placeholder="Search...">
+              </form>
+              <div class="dropdown text-end">
+                  <a href="#" class="dropdown-toggle text-decoration-none mb-lg-2" data-bs-toggle="dropdown"><img src="images/pfp.jpg" alt="profile" width="35px" height="35px" class="rounded-circle mb-2"></a>
+
+
+                  <ul class="dropdown-menu text-small">
+                    <li><a class="dropdown-item" href="Sigin_upForm.html">Sign in</a></li>
+                    <li><hr class="dropdown-divider"></a></li>
+                      <li><a class="dropdown-item" href="#">Sign out</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+    </header>
+
+    <!-- Bootstrap 5 Contact Form Snippet -->
+
+<div class="container-fluid px-5 my-5">
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+        <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
+          <div class="card-body p-0">
+            <div class="row g-0">
+              <div class="col-sm-6 d-none d-sm-block bg-image"></div>
+              <div class="col-sm-6 p-4">
+                <div class="text-center">
+                  <div class="h3 fw-light">Contact Us</div>
+
+                </div>
+  
+                <!-- * * * * * * * * * * * * * *
+            // * * SB Forms Contact Form * *
+            // * * * * * * * * * * * * * * *
+  
+            // This form is pre-integrated with SB Forms.
+            // To make this form functional, sign up at
+            // https://startbootstrap.com/solution/contact-forms
+            // to get an API token!
+            -->
+  
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+  
+                  <!-- Name Input -->
+                  <div class="form-floating mb-3">
+                    <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                    <label for="name">Name</label>
+                    <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                  </div>
+  
+                  <!-- Email Input -->
+                  <div class="form-floating mb-3">
+                    <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+                    <label for="emailAddress">Email Address</label>
+                    <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                    <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                  </div>
+  
+                  <!-- Message Input -->
+                  <div class="form-floating mb-3">
+                    <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                    <label for="message">Message</label>
+                    <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                  </div>
+  
+                  <!-- Submit success message -->
+                  <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center mb-3">
+                      <div class="fw-bolder">Form submission successful!</div>
+                      <p>To activate this form, sign up at</p>
+                      <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                    </div>
+                  </div>
+  
+                  <!-- Submit error message -->
+                  <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                  </div>
+  
+                  <!-- Submit button -->
+                  <div class="d-grid">
+                    <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
+                  </div>
+                </form>
+                <!-- End of contact form -->
+  
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--footer-->
+  <footer class="text-center text-white" style="background-color: #beedfa;">
+    <!-- Grid container -->
+    <div class="footer-container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-1.5">
+        <!-- Facebook -->
+        <a
+          class="btn btn-primary btn-floating m-1 rounded-circle"
+          style="background-color: #3b5998;"
+          href="http://www.facebook.com"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn btn-primary btn-floating m-1 rounded-circle"
+          style="background-color: #55acee;"
+          href="http://www.twitter.com"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          class="btn btn-primary btn-floating m-1 rounded-circle"
+          style="background-color: #dd4b39;"
+          href="http://www.google.com"
+          role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn btn-primary btn-floating m-1 rounded-circle"
+          style="background-color: #f18d0a;"
+          href="http://www.instagram.com"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn btn-primary btn-floating m-1 rounded-circle"
+          style="background-color: #0082ca;"
+          href="https://mm.linkedin.com/"
+          role="button"
+          ><i class="fab fa-linkedin-in"></i>
+        </a>
+      </section>
+      <!-- Copyright -->
+      <div class="text-center p-3 text-black">
+      Copyright:© 2023 NCN. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

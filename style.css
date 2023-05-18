@@ -1,0 +1,125 @@
+/* header */
+ul a{
+  font-size: 20px;
+}
+/*content*/
+
+.about-text{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 550;
+}
+.btn{
+  margin-bottom: 10px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 550;
+}
+.content-btn{
+  border-radius: 25px;
+  box-shadow: 0px 3px 11px #666666;
+  font-family: Arial;
+  color: #000000;
+  font-size: 15px;
+  background: #c4e6e1;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.content-btn:hover{
+  background: #c1dbeb;
+  text-decoration: none;
+}
+
+
+
+/*services*/
+.section-bg {
+    background-color: #f2f9f8;
+    padding: 30px;
+}
+.service-text{
+  font-family:'Playfair Display', serif;
+  font-weight: 600;
+}
+.service-heading{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.services .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+  }
+  
+  .services .icon-box:hover {
+    box-shadow: 0 2px 29px 0 rgba(37, 37, 37, 0.1);
+  }
+  
+  .services .icon{
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 15px;
+  }
+  
+  .services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .services .title a {
+    color: #111;
+  }
+  
+  .services .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+  
+  .services .icon-box-black .icon{
+    color: #140208;
+  }
+  
+  .services .icon-box-cyan .icon{
+    color: #3fcdc7;
+  }
+  
+  .services .icon-box-green .icon{
+    color: #41cf2e;
+  }
+  
+  .services .icon-box-blue .icon{
+    color: #2282ff;
+  }
+
+  /*Pricing*/
+  .card {
+    border:none;
+    padding: 10px 50px;
+  }
+
+  .card:hover {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.75) !important;
+  }
+
+  .card:hover::after {
+    opacity: 1;
+  }
+
+  .card:hover .btn{
+    border-radius: 25px;
+    box-shadow: 0px 3px 11px #666666;
+    font-family: Arial;
+    color: #000000;
+    font-size: 15px;
+    background: #c4e6e1;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  
